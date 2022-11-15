@@ -3,8 +3,8 @@
     <ul>
         {{-- http://localhost:8000/home --}}
         <li><a href="{{ url('home') }}">Home</a></li>
-        <li><a href="{{ url('About') }}">About</a></li>
-        <li><a href="{{ url('Contact') }}">Contact</a></li>
+        <li><a href="{{ url('about') }}">About</a></li>
+        <li><a href="{{ url('contact') }}">Contact</a></li>
     </ul>
 </nav>
 <hr />

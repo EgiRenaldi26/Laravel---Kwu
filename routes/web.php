@@ -28,7 +28,7 @@ Route::get('/about', function (){
 
 Route::get('/contact', function (){
     $data = [
-        "person" => ["Rizky" , "Gavin","Firdaus","Dzaky","iqbal"]
+        "person" => ["Rizky" , "Gavin" , "Firdaus" , "Dzaky" , "iqbal"]
     ];
     return view('pages.contact', $data);
 });

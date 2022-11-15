@@ -7,9 +7,9 @@
     <div>
         <p>Berikut fasilitas yang bisa  anda gunakan. Login sebagai :</p>
         @if($role =="admin")
-            Admin - Menambahkan, Mengedit , Menghapus Barang
+            Admin - Menambahkan, Mengedit , Menghapus Barang.
         @elseif($role == "teller")
-            Teller - Mengunduh Laporan Kwu
+            Teller - Mengunduh Laporan Kwu.
         @else
             Kamu Aneh, role tidak diketahui.
         @endif

@@ -5,10 +5,10 @@
 @section('content')
     <h2>contact.</h2>
     <div>
-        @for($i =1; $1 <= 10; $i++)
-                Nomor {{ $i }} <br>
+        @for($i =1; $1 <= 10; $i++) 
+                Nomor {{ $i }}
         @endfor
-        </br>
+        
         @foreach($person as $data)
                 Kontak : {{ $data }}
         @endforeach
